@@ -19,10 +19,12 @@ export default function Navbar() {
     }, []);
 
     useEffect(() => {
-        if (screenSize && screenSize < 768) {
-            setActiveMenu(false);
-        } else {
-            setActiveMenu(true);
+        if (screenSize !== null) {
+            if (screenSize < 768) {
+                setActiveMenu(false);
+            } else {
+                setActiveMenu(true);
+            }
         }
     }, [screenSize]);
 
