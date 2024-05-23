@@ -8,6 +8,7 @@ import {Cryptocurrencies} from "./views/cryptocurrencies";
 import {CryptoDetails} from "./views/crypto-details";
 import {News} from "./views/news";
 import Navbar from "./components/navbar";
+import {Footer} from "./components/footer";
 
 function App() {
     return (
@@ -20,24 +21,16 @@ function App() {
                     <div className="routes">
                         <Routes>
                             <Route element={<Homepage />} path="/" />
-                            <Route element={<Exchanges />} path="/exchanges" />
+                            {/* <Route element={<Exchanges />} path="/exchanges" /> */}
                             <Route element={<Cryptocurrencies />} path="/cryptocurrencies" />
                             <Route element={<CryptoDetails />} path="/crypto/:coinId" />
                             <Route element={<News />} path="/news" />
                         </Routes>
                     </div>
                 </Layout>
-                <div className="footer" style={{color: "white", textAlign: "center"}}>
-                    <Typography.Title>
-                        Cryptoverse <br />
-                        All rights reserved.
-                    </Typography.Title>
-                    <Space>
-                        <Link to="/">Home</Link>
-                        <Link to="/exchanges">Exchanges</Link>
-                        <Link to="/news">News</Link>
-                    </Space>
-                </div>
+                <footer className="footer" style={{color: "white"}}>
+                    <Footer />
+                </footer>
             </div>
         </div>
     );
