@@ -3,7 +3,7 @@ import {Layout} from "antd";
 
 import "./App.css";
 import {Homepage} from "./views/homepage";
-import {Exchanges} from "./views/exchanges";
+// import {Exchanges} from "./views/exchanges";
 import {Cryptocurrencies} from "./views/cryptocurrencies";
 import {CryptoDetails} from "./views/crypto-details";
 import {News} from "./views/news";

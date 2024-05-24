@@ -1,12 +1,11 @@
 # CryptoApp
 
-This boilerplate is based on [Vite](https://vitejs.dev/) and [React](https://reactjs.org/) with [Tailwind CSS](https://tailwindcss.com/).
+This web is based on [Vite](https://vitejs.dev/) and [React](https://reactjs.org/)
 
 ## Extensions recommended:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Project setup
@@ -87,11 +86,3 @@ You can import your `components`, `hooks`, `services`, `types`, `views`, etc. wi
 ```
 import { Button } from '@/components/ui/button';
 ```
-
-
-
-
-
-
-
-
